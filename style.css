@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap");
+*{
+  box-sizing: border-box;
+}
+body {
+    font-family: "Lato", sans-serif;
+  }
+
+  .container{
+    position: relative;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #68C3D4;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 85px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+
+#main{
+  display: flex;
+  flex-grow: 2;
+  padding: 16px;
+  background-color: antiquewhite;
+}
+
+
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  height: 80vh;
+  background-color: #568EA3; 
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  color: antiquewhite;
+  font-size: 37px;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.banner h1 .banner h3 .banner h5{
+  margin: 0;
+  text-align: center;
+}
+
+.banner2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  height: 80vh;
+  background-color: #568EA3; 
+}
+
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  display: flex;
+  text-align: center;
+  margin: 20px;
+}
+
+h4{
+  font-family: 'Merriweather', serif;
+  color: antiquewhite;
+  font-size: 27px;
+  margin: 20px;
+  text-align: center;
+}
+
+.banner2 h2 .banner h4{
+  margin: 0;
+  text-align: center;
+}
+
+.banner3{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-grow: 2;
+  height: 380vh;
+  background-color: #568EA3; 
+}
+
+h1{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+}
+
+.heading h1{
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.row{
+  display: flex;
+  display: block;
+}
+
+.column{
+  float: left;
+  flex: 33.33%;
+  padding: 20px;
+  display: block;
+}
+
+.body{
+ justify-content: center;
+ align-items: center;
+ font-size: 25px;
+ width: 98vw;
+ color: antiquewhite;
+
+}
+
+.table{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  font-size: 10px;
+  width: 80%;
+}
+
+.pic{
+  margin: 20px;
+}
+
+.text{
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px;
+  width: 80%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.row{
+  display: flex;
+  display: block;
+}
+
+.column2{
+  float: left;
+  flex: 33.33%;
+  padding: 120px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.total{
+  padding-left: 250px;
+}
+
+.sub{
+ padding-right: 90px;
+ text-align: center;
+ width: 80%;
+}
+
+.banner5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  height: 80vh;
+  background-color: #568EA3; 
+}
+
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  display: flex;
+  text-align: center;
+  margin: 20px;
+}
+
+h4{
+  font-family: 'Merriweather', serif;
+  color: antiquewhite;
+  font-size: 27px;
+  margin: 20px;
+  text-align: center;
+}
+
+.banner5 h2 .banner h4{
+  margin: 0;
+  text-align: center;
+}
+
+.banner6{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 2;
+  height: 160vh;
+  background-color: #568EA3; 
+}
+
+.banner6-text{
+  margin: 10px;
+}
+
+.banner6-text p span {
+  color: #68C3D4;
+}
+
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  display: flex;
+  text-align: center;
+  margin: 20px;
+}
+
+h6{
+  font-family: 'Merriweather', serif;
+  color: antiquewhite;
+  font-size: 27px;
+  margin: 20px;
+  text-align: center;
+}
+
+.profile{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  font-size: 10px;
+  width: 80%;
+}
+
+.column3{
+  margin: 20px;
+}
+
+.text{
+  font-size: 10px;
+  padding: 5px;
+  margin: 5px;
+  width: 80%;
+}
+
+
+
+.footer{
+  display: flex;
+  flex-grow: 2;
+  padding: 10px;
+  background-color: #826251;
+}
+
+.footer p{
+  display: flex;
+  justify-content: flex-start;
+}
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
